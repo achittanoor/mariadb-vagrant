@@ -5,7 +5,7 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "bento/centos-7.2"
+  config.vm.box = "bento/centos-7.5"
   config.vm.box_check_update = false
   config.vbguest.auto_update = true
   
